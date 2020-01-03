@@ -1,4 +1,5 @@
-# staticfile-deploy Click [Demo](https://monzter50.github.io/staticfile-deploy/)
+Click [Demo](https://monzter50.github.io/staticfile-deploy/)
+# staticfile-deploy 
 
 Little project for test Github pages deploy
 
@@ -10,8 +11,8 @@ Install init your project:
 
 and add a script to your package.json like this:
 
-`"homepage": "https://username.github.io/name-project",
-"scripts": {
+`"homepage": "https://username.github.io/name-project",`
+`"scripts": {
   // ...
   "deploy": "gh-pages -d folder_name"
 }`
